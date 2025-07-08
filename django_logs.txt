@@ -1,0 +1,134 @@
+la base directory :  /WS_1
+static  /WS_1/static /static/
+23.0
+2025-06-01 00:00:00
+2025-06-01 12:48:37.559074
+sppped max : 5.04
+23.0
+**********************uplink
+*********************up
+*************************try
+{'deduplicationId': 'a8443085-c7b6-44b3-8932-02a1128fc8c4', 'time': '2025-06-01T11:48:27.028211+00:00', 'deviceInfo': {'tenantId': 'ccd87d9f-cea7-4426-bfef-86293f785573', 'tenantName': 'ChirpStack', 'applicationId': '41a6740f-8706-49f5-8cdb-e074094b3ee8', 'applicationName': 'vanne_test', 'deviceProfileId': '22c1629d-28ac-44d4-8f2d-7060525fe3b8', 'deviceProfileName': 'relay', 'deviceName': 'relay', 'devEui': 'ab7554dc00001075', 'deviceClassEnabled': 'CLASS_C', 'tags': {}}, 'devAddr': '00fba9ba', 'adr': True, 'dr': 2, 'fCnt': 10120, 'fPort': 2, 'confirmed': True, 'data': 'AA==', 'object': {}, 'rxInfo': [{'gatewayId': '7276ff000b030bf9', 'uplinkId': 43616, 'gwTime': '2025-06-01T11:48:27.028211+00:00', 'nsTime': '2025-06-01T11:48:27.071193025+00:00', 'rssi': -124, 'snr': -5.2, 'channel': 5, 'rfChain': 1, 'location': {'latitude': 34.65103, 'longitude': -1.89722, 'altitude': 626.0}, 'context': 'PFMVtA==', 'crcStatus': 'CRC_OK'}], 'txInfo': {'frequency': 868100000, 'modulation': {'lora': {'bandwidth': 125000, 'spreadingFactor': 10, 'codeRate': 'CR_4_5'}}}, 'regionConfigId': 'eu868'}
+DEV EUI :  ab7554dc00001075
+Dispositif non reconnu, données ignorées.
+Dispositif non reconnu, données ignorées.
+Dispositif non reconnu, données ignorées.
+chirpstack integration error
+la base directory :  /WS_1
+static  /WS_1/static /static/
+**********************uplink
+*********************up
+*************************try
+{'deduplicationId': '2a88e95e-c8cd-4fbb-9329-f5f954d08e26', 'time': '2025-06-01T11:48:59.570398+00:00', 'deviceInfo': {'tenantId': 'ccd87d9f-cea7-4426-bfef-86293f785573', 'tenantName': 'ChirpStack', 'applicationId': 'c3f1a04b-fa70-4d4c-9f3f-3e0294e22a56', 'applicationName': 'irrigation', 'deviceProfileId': 'd347a8df-c4b3-47fa-8cc1-279dee4fd9b3', 'deviceProfileName': 'sw3l-010', 'deviceName': 'sw3l-010', 'devEui': 'a84041685458e15b', 'deviceClassEnabled': 'CLASS_A', 'tags': {}}, 'devAddr': '00e50cf0', 'adr': True, 'dr': 5, 'fCnt': 28868, 'fPort': 2, 'confirmed': False, 'data': 'CAAAq8EAAWg8Pis=', 'object': {'flag': 2.0, 'debit': 687.02}, 'rxInfo': [{'gatewayId': '7276ff000b030bf9', 'uplinkId': 54504, 'gwTime': '2025-06-01T11:48:59.570398+00:00', 'nsTime': '2025-06-01T11:48:59.610123177+00:00', 'rssi': -97, 'snr': 9.2, 'channel': 1, 'location': {'latitude': 34.651, 'longitude': -1.89722, 'altitude': 622.0}, 'context': 'PkOjmw==', 'crcStatus': 'CRC_OK'}], 'txInfo': {'frequency': 867300000, 'modulation': {'lora': {'bandwidth': 125000, 'spreadingFactor': 7, 'codeRate': 'CR_4_5'}}}, 'regionConfigId': 'eu868'}
+DEV EUI :  a84041685458e15b
+Données reçues du dispositif SW3L-010
+Données enregistrées avec succès : debit: 687.02 L, Time: 2025-06-01 11:48:59.570398+00:00
+Dispositif non reconnu, données ignorées.
+Dispositif non reconnu, données ignorées.
+chirpstack integration error
+**********************uplink
+*********************up
+*************************try
+{'deduplicationId': '317ab9bc-5a02-4831-9707-36c105252dfd', 'time': '2025-06-01T11:49:05.114841+00:00', 'deviceInfo': {'tenantId': 'ccd87d9f-cea7-4426-bfef-86293f785573', 'tenantName': 'ChirpStack', 'applicationId': '41a6740f-8706-49f5-8cdb-e074094b3ee8', 'applicationName': 'vanne_test', 'deviceProfileId': '4c78fd08-d9f9-425c-9bb5-97ec98bc65b0', 'deviceProfileName': 'van_test_prf', 'deviceName': 'vanne 1', 'devEui': 'ce7554dc00001057', 'deviceClassEnabled': 'CLASS_A', 'tags': {}}, 'devAddr': '018f50da', 'adr': True, 'dr': 2, 'fCnt': 1752, 'fPort': 2, 'confirmed': True, 'data': 'AAFc', 'object': {'state': 'OFF', 'battery_voltage': '3.48V'}, 'rxInfo': [{'gatewayId': '7276ff000b030bf9', 'uplinkId': 33382, 'gwTime': '2025-06-01T11:49:05.114841+00:00', 'nsTime': '2025-06-01T11:49:05.158698743+00:00', 'rssi': -123, 'snr': -6.5, 'channel': 6, 'rfChain': 1, 'location': {'latitude': 34.651, 'longitude': -1.89722, 'altitude': 622.0}, 'context': 'Ppg9lA==', 'crcStatus': 'CRC_OK'}], 'txInfo': {'frequency': 868300000, 'modulation': {'lora': {'bandwidth': 125000, 'spreadingFactor': 10, 'codeRate': 'CR_4_5'}}}, 'regionConfigId': 'eu868'}
+DEV EUI :  ce7554dc00001057
+Dispositif non reconnu, données ignorées.
+Dispositif non reconnu, données ignorées.
+Dispositif non reconnu, données ignorées.
+chirpstack integration error
+**********************uplink
+*********************up
+*************************try
+{'deduplicationId': '473d4365-be82-4ab0-8154-9ab5ff0b4a2b', 'time': '2025-06-01T11:49:27.855260+00:00', 'deviceInfo': {'tenantId': 'ccd87d9f-cea7-4426-bfef-86293f785573', 'tenantName': 'ChirpStack', 'applicationId': '41a6740f-8706-49f5-8cdb-e074094b3ee8', 'applicationName': 'vanne_test', 'deviceProfileId': '22c1629d-28ac-44d4-8f2d-7060525fe3b8', 'deviceProfileName': 'relay', 'deviceName': 'relay', 'devEui': 'ab7554dc00001075', 'deviceClassEnabled': 'CLASS_C', 'tags': {}}, 'devAddr': '00fba9ba', 'adr': True, 'dr': 2, 'fCnt': 10121, 'fPort': 2, 'confirmed': True, 'data': 'AA==', 'object': {}, 'rxInfo': [{'gatewayId': '7276ff000b030bf9', 'uplinkId': 35418, 'gwTime': '2025-06-01T11:49:27.855260+00:00', 'nsTime': '2025-06-01T11:49:27.904488915+00:00', 'rssi': -124, 'snr': -4.8, 'channel': 5, 'rfChain': 1, 'location': {'latitude': 34.651, 'longitude': -1.89729, 'altitude': 618.0}, 'context': 'P/M7VA==', 'crcStatus': 'CRC_OK'}], 'txInfo': {'frequency': 868100000, 'modulation': {'lora': {'bandwidth': 125000, 'spreadingFactor': 10, 'codeRate': 'CR_4_5'}}}, 'regionConfigId': 'eu868'}
+DEV EUI :  ab7554dc00001075
+Dispositif non reconnu, données ignorées.
+Dispositif non reconnu, données ignorées.
+Dispositif non reconnu, données ignorées.
+chirpstack integration error
+**********************uplink
+*********************up
+*************************try
+{'deduplicationId': '53e1dba3-e9f9-4400-abd0-2c242835c73a', 'time': '2025-06-01T11:49:41.239614+00:00', 'deviceInfo': {'tenantId': 'ccd87d9f-cea7-4426-bfef-86293f785573', 'tenantName': 'ChirpStack', 'applicationId': '41a6740f-8706-49f5-8cdb-e074094b3ee8', 'applicationName': 'vanne_test', 'deviceProfileId': '0a40b44f-3c2e-41d2-9f67-2008ec262729', 'deviceProfileName': 'vanne_pcb', 'deviceName': 'vanne 2', 'devEui': '1e4554dc00001057', 'deviceClassEnabled': 'CLASS_A', 'tags': {}}, 'devAddr': '01b74b53', 'adr': True, 'dr': 5, 'fCnt': 868, 'fPort': 2, 'confirmed': True, 'data': 'AAF+', 'object': {'state': 'OFF', 'battery_voltage': '3.82V'}, 'rxInfo': [{'gatewayId': '7276ff000b030bf9', 'uplinkId': 42364, 'gwTime': '2025-06-01T11:49:41.239614+00:00', 'nsTime': '2025-06-01T11:49:41.278232105+00:00', 'rssi': -117, 'snr': 4.0, 'location': {'latitude': 34.65093, 'longitude': -1.89724, 'altitude': 614.0}, 'context': 'QL918w==', 'crcStatus': 'CRC_OK'}], 'txInfo': {'frequency': 867100000, 'modulation': {'lora': {'bandwidth': 125000, 'spreadingFactor': 7, 'codeRate': 'CR_4_5'}}}, 'regionConfigId': 'eu868'}
+DEV EUI :  1e4554dc00001057
+Dispositif non reconnu, données ignorées.
+Dispositif non reconnu, données ignorées.
+Dispositif non reconnu, données ignorées.
+chirpstack integration error
+**********************uplink
+*********************up
+*************************try
+{'deduplicationId': '6157f87b-ac2d-48b4-bef0-45ba10fe4c19', 'time': '2025-06-01T11:49:59.565817+00:00', 'deviceInfo': {'tenantId': 'ccd87d9f-cea7-4426-bfef-86293f785573', 'tenantName': 'ChirpStack', 'applicationId': 'c3f1a04b-fa70-4d4c-9f3f-3e0294e22a56', 'applicationName': 'irrigation', 'deviceProfileId': 'd347a8df-c4b3-47fa-8cc1-279dee4fd9b3', 'deviceProfileName': 'sw3l-010', 'deviceName': 'sw3l-010', 'devEui': 'a84041685458e15b', 'deviceClassEnabled': 'CLASS_A', 'tags': {}}, 'devAddr': '00e50cf0', 'adr': True, 'dr': 5, 'fCnt': 28869, 'fPort': 2, 'confirmed': False, 'data': 'CAAAq8EAAWg8Pmc=', 'object': {'debit': 687.02, 'flag': 2.0}, 'rxInfo': [{'gatewayId': '7276ff000b030bf9', 'uplinkId': 44205, 'gwTime': '2025-06-01T11:49:59.565817+00:00', 'nsTime': '2025-06-01T11:49:59.604780458+00:00', 'rssi': -112, 'snr': 8.0, 'channel': 5, 'rfChain': 1, 'location': {'latitude': 34.65093, 'longitude': -1.89724, 'altitude': 614.0}, 'context': 'QdcYrA==', 'crcStatus': 'CRC_OK'}], 'txInfo': {'frequency': 868100000, 'modulation': {'lora': {'bandwidth': 125000, 'spreadingFactor': 7, 'codeRate': 'CR_4_5'}}}, 'regionConfigId': 'eu868'}
+DEV EUI :  a84041685458e15b
+Données reçues du dispositif SW3L-010
+Données enregistrées avec succès : debit: 687.02 L, Time: 2025-06-01 11:49:59.565817+00:00
+Dispositif non reconnu, données ignorées.
+Dispositif non reconnu, données ignorées.
+chirpstack integration error
+**********************uplink
+*********************up
+*************************try
+{'deduplicationId': '69edf053-ac8c-4af0-b1ef-da5380e8b56f', 'time': '2025-06-01T11:50:27.160271+00:00', 'deviceInfo': {'tenantId': 'ccd87d9f-cea7-4426-bfef-86293f785573', 'tenantName': 'ChirpStack', 'applicationId': '41a6740f-8706-49f5-8cdb-e074094b3ee8', 'applicationName': 'vanne_test', 'deviceProfileId': '22c1629d-28ac-44d4-8f2d-7060525fe3b8', 'deviceProfileName': 'relay', 'deviceName': 'relay', 'devEui': 'ab7554dc00001075', 'deviceClassEnabled': 'CLASS_C', 'tags': {}}, 'devAddr': '00fba9ba', 'adr': True, 'dr': 2, 'fCnt': 10122, 'fPort': 2, 'confirmed': True, 'data': 'AA==', 'object': {}, 'rxInfo': [{'gatewayId': '7276ff000b030bf9', 'uplinkId': 3212, 'gwTime': '2025-06-01T11:50:27.160271+00:00', 'nsTime': '2025-06-01T11:50:27.203071823+00:00', 'rssi': -123, 'snr': -7.5, 'channel': 7, 'rfChain': 1, 'location': {'latitude': 34.65095, 'longitude': -1.89737, 'altitude': 607.0}, 'context': 'Q3wnfA==', 'crcStatus': 'CRC_OK'}], 'txInfo': {'frequency': 868500000, 'modulation': {'lora': {'bandwidth': 125000, 'spreadingFactor': 10, 'codeRate': 'CR_4_5'}}}, 'regionConfigId': 'eu868'}
+DEV EUI :  ab7554dc00001075
+Dispositif non reconnu, données ignorées.
+Dispositif non reconnu, données ignorées.
+Dispositif non reconnu, données ignorées.
+chirpstack integration error
+la base directory :  /WS_1
+static  /WS_1/static /static/
+23.0
+**********************uplink
+*********************up
+*************************try
+{'deduplicationId': '6ed14057-24a9-45ed-ae18-44122425cbe4', 'time': '2025-06-01T11:50:59.561213+00:00', 'deviceInfo': {'tenantId': 'ccd87d9f-cea7-4426-bfef-86293f785573', 'tenantName': 'ChirpStack', 'applicationId': 'c3f1a04b-fa70-4d4c-9f3f-3e0294e22a56', 'applicationName': 'irrigation', 'deviceProfileId': 'd347a8df-c4b3-47fa-8cc1-279dee4fd9b3', 'deviceProfileName': 'sw3l-010', 'deviceName': 'sw3l-010', 'devEui': 'a84041685458e15b', 'deviceClassEnabled': 'CLASS_A', 'tags': {}}, 'devAddr': '00e50cf0', 'adr': True, 'dr': 5, 'fCnt': 28870, 'fPort': 2, 'confirmed': False, 'data': 'CAAAq8EAAWg8PqM=', 'object': {'flag': 2.0, 'debit': 687.02}, 'rxInfo': [{'gatewayId': '7276ff000b030bf9', 'uplinkId': 25050, 'gwTime': '2025-06-01T11:50:59.561213+00:00', 'nsTime': '2025-06-01T11:50:59.602276682+00:00', 'rssi': -110, 'snr': 7.0, 'channel': 7, 'rfChain': 1, 'location': {'latitude': 34.65096, 'longitude': -1.89747, 'altitude': 597.0}, 'context': 'RWqNpA==', 'crcStatus': 'CRC_OK'}], 'txInfo': {'frequency': 868500000, 'modulation': {'lora': {'bandwidth': 125000, 'spreadingFactor': 7, 'codeRate': 'CR_4_5'}}}, 'regionConfigId': 'eu868'}
+DEV EUI :  a84041685458e15b
+Données reçues du dispositif SW3L-010
+Données enregistrées avec succès : debit: 687.02 L, Time: 2025-06-01 11:50:59.561213+00:00
+Dispositif non reconnu, données ignorées.
+Dispositif non reconnu, données ignorées.
+chirpstack integration error
+**********************uplink
+*********************up
+*************************try
+{'deduplicationId': 'ac038882-642a-49f6-8e9e-5f8d81b8e4cf', 'time': '2025-06-01T11:51:27.066314+00:00', 'deviceInfo': {'tenantId': 'ccd87d9f-cea7-4426-bfef-86293f785573', 'tenantName': 'ChirpStack', 'applicationId': '41a6740f-8706-49f5-8cdb-e074094b3ee8', 'applicationName': 'vanne_test', 'deviceProfileId': '22c1629d-28ac-44d4-8f2d-7060525fe3b8', 'deviceProfileName': 'relay', 'deviceName': 'relay', 'devEui': 'ab7554dc00001075', 'deviceClassEnabled': 'CLASS_C', 'tags': {}}, 'devAddr': '00fba9ba', 'adr': True, 'dr': 2, 'fCnt': 10123, 'fPort': 2, 'confirmed': True, 'data': 'AA==', 'object': {}, 'rxInfo': [{'gatewayId': '7276ff000b030bf9', 'uplinkId': 45055, 'gwTime': '2025-06-01T11:51:27.066314+00:00', 'nsTime': '2025-06-01T11:51:27.111168959+00:00', 'rssi': -123, 'snr': -8.2, 'channel': 7, 'rfChain': 1, 'location': {'latitude': 34.65101, 'longitude': -1.89732, 'altitude': 612.0}, 'context': 'Rw4/bA==', 'crcStatus': 'CRC_OK'}], 'txInfo': {'frequency': 868500000, 'modulation': {'lora': {'bandwidth': 125000, 'spreadingFactor': 10, 'codeRate': 'CR_4_5'}}}, 'regionConfigId': 'eu868'}
+DEV EUI :  ab7554dc00001075
+Dispositif non reconnu, données ignorées.
+Dispositif non reconnu, données ignorées.
+Dispositif non reconnu, données ignorées.
+chirpstack integration error
+**********************uplink
+*********************up
+*************************try
+{'deduplicationId': 'b5dff4c7-abbf-4425-a206-e5bda9019fb3', 'time': '2025-06-01T11:51:59.556574+00:00', 'deviceInfo': {'tenantId': 'ccd87d9f-cea7-4426-bfef-86293f785573', 'tenantName': 'ChirpStack', 'applicationId': 'c3f1a04b-fa70-4d4c-9f3f-3e0294e22a56', 'applicationName': 'irrigation', 'deviceProfileId': 'd347a8df-c4b3-47fa-8cc1-279dee4fd9b3', 'deviceProfileName': 'sw3l-010', 'deviceName': 'sw3l-010', 'devEui': 'a84041685458e15b', 'deviceClassEnabled': 'CLASS_A', 'tags': {}}, 'devAddr': '00e50cf0', 'adr': True, 'dr': 5, 'fCnt': 28871, 'fPort': 2, 'confirmed': False, 'data': 'CAAAq8EAAWg8Pt8=', 'object': {'debit': 687.02, 'flag': 2.0}, 'rxInfo': [{'gatewayId': '7276ff000b030bf9', 'uplinkId': 36141, 'gwTime': '2025-06-01T11:51:59.556574+00:00', 'nsTime': '2025-06-01T11:51:59.595137185+00:00', 'rssi': -108, 'snr': 8.2, 'channel': 3, 'location': {'latitude': 34.65101, 'longitude': -1.89732, 'altitude': 612.0}, 'context': 'SP4Cew==', 'crcStatus': 'CRC_OK'}], 'txInfo': {'frequency': 867700000, 'modulation': {'lora': {'bandwidth': 125000, 'spreadingFactor': 7, 'codeRate': 'CR_4_5'}}}, 'regionConfigId': 'eu868'}
+DEV EUI :  a84041685458e15b
+Données reçues du dispositif SW3L-010
+Données enregistrées avec succès : debit: 687.02 L, Time: 2025-06-01 11:51:59.556574+00:00
+Dispositif non reconnu, données ignorées.
+Dispositif non reconnu, données ignorées.
+chirpstack integration error
+**********************uplink
+*********************up
+*************************try
+{'deduplicationId': 'a4069bb1-f913-4acd-89a6-cf374347188e', 'time': '2025-06-01T11:52:20.729666+00:00', 'deviceInfo': {'tenantId': 'ccd87d9f-cea7-4426-bfef-86293f785573', 'tenantName': 'ChirpStack', 'applicationId': 'c3f1a04b-fa70-4d4c-9f3f-3e0294e22a56', 'applicationName': 'irrigation', 'deviceProfileId': '2e018849-5cbd-479d-94a7-f90b48148a78', 'deviceProfileName': 'Soil_sensors', 'deviceName': 'Soil_sensors', 'devEui': 'a84041d10858e027', 'deviceClassEnabled': 'CLASS_A', 'tags': {}}, 'devAddr': '00d17f9d', 'adr': True, 'dr': 5, 'fCnt': 89, 'fPort': 2, 'confirmed': False, 'data': 'DTgB////////////////AAABSgAAAAAAAAAAAC8BUAAAAAAAAAAAAAABSAAAAAAAAAAA', 'object': {'Batterie': 3.384, 'Power_Status': 1.0, 'Capteur_2': {'Temperature': 33.0, 'Phosphore': 0.0, 'Conductivite': 0.0, 'Azote': 0.0, 'Potassium': 0.0, 'Humidite': 0.0}, 'Capteur_4': {'Humidite': 0.0, 'Temperature': 32.8, 'Phosphore': 0.0, 'Potassium': 0.0, 'Azote': 0.0, 'Conductivite': 0.0}, 'Capteur_1': {'Humidite': 6553.5, 'Conductivite': 65535.0, 'Phosphore': 65535.0, 'Potassium': 65535.0, 'Azote': 65535.0, 'Temperature': 6553.5}, 'Capteur_3': {'Phosphore': 0.0, 'Conductivite': 0.0, 'Potassium': 0.0, 'Temperature': 33.6, 'Humidite': 4.7, 'Azote': 0.0}}, 'rxInfo': [{'gatewayId': '7276ff000b030bf9', 'uplinkId': 49461, 'gwTime': '2025-06-01T11:52:20.729666+00:00', 'nsTime': '2025-06-01T11:52:20.767956172+00:00', 'rssi': -112, 'snr': 7.8, 'location': {'latitude': 34.65105, 'longitude': -1.8973, 'altitude': 618.0}, 'context': 'SkEV2w==', 'crcStatus': 'CRC_OK'}], 'txInfo': {'frequency': 867100000, 'modulation': {'lora': {'bandwidth': 125000, 'spreadingFactor': 7, 'codeRate': 'CR_4_5'}}}, 'regionConfigId': 'eu868'}
+DEV EUI :  a84041d10858e027
+Dispositif non reconnu, données ignorées.
+Dispositif non reconnu, données ignorées.
+Dispositif non reconnu, données ignorées.
+📡 Données reçues du Capteur de sol
+📊 object_data complet : {'Batterie': 3.384, 'Power_Status': 1.0, 'Capteur_2': {'Temperature': 33.0, 'Phosphore': 0.0, 'Conductivite': 0.0, 'Azote': 0.0, 'Potassium': 0.0, 'Humidite': 0.0}, 'Capteur_4': {'Humidite': 0.0, 'Temperature': 32.8, 'Phosphore': 0.0, 'Potassium': 0.0, 'Azote': 0.0, 'Conductivite': 0.0}, 'Capteur_1': {'Humidite': 6553.5, 'Conductivite': 65535.0, 'Phosphore': 65535.0, 'Potassium': 65535.0, 'Azote': 65535.0, 'Temperature': 6553.5}, 'Capteur_3': {'Phosphore': 0.0, 'Conductivite': 0.0, 'Potassium': 0.0, 'Temperature': 33.6, 'Humidite': 4.7, 'Azote': 0.0}}
+🔎 Capteur_1 trouvé : {'Humidite': 6553.5, 'Conductivite': 65535.0, 'Phosphore': 65535.0, 'Potassium': 65535.0, 'Azote': 65535.0, 'Temperature': 6553.5}
+⚠️ Ignoré l'enregistrement pour Capteur_1 car une des valeurs dépasse 65000
+🔎 Capteur_2 trouvé : {'Temperature': 33.0, 'Phosphore': 0.0, 'Conductivite': 0.0, 'Azote': 0.0, 'Potassium': 0.0, 'Humidite': 0.0}
+✅ Données enregistrées pour Capteur_2: {'Temperature': 33.0, 'Phosphore': 0.0, 'Conductivite': 0.0, 'Azote': 0.0, 'Potassium': 0.0, 'Humidite': 0.0}
+🔎 Capteur_3 trouvé : {'Phosphore': 0.0, 'Conductivite': 0.0, 'Potassium': 0.0, 'Temperature': 33.6, 'Humidite': 4.7, 'Azote': 0.0}
+✅ Données enregistrées pour Capteur_3: {'Phosphore': 0.0, 'Conductivite': 0.0, 'Potassium': 0.0, 'Temperature': 33.6, 'Humidite': 4.7, 'Azote': 0.0}
+🔎 Capteur_4 trouvé : {'Humidite': 0.0, 'Temperature': 32.8, 'Phosphore': 0.0, 'Potassium': 0.0, 'Azote': 0.0, 'Conductivite': 0.0}
+✅ Données enregistrées pour Capteur_4: {'Humidite': 0.0, 'Temperature': 32.8, 'Phosphore': 0.0, 'Potassium': 0.0, 'Azote': 0.0, 'Conductivite': 0.0}
+chirpstack integration error
+**********************uplink
+*********************up
+*************************try
+{'deduplicationId': '726b900e-9e4c-4f75-8512-442d382cc98d', 'time': '2025-06-01T11:52:27.576364+00:00', 'deviceInfo': {'tenantId': 'ccd87d9f-cea7-4426-bfef-86293f785573', 'tenantName': 'ChirpStack', 'applicationId': '41a6740f-8706-49f5-8cdb-e074094b3ee8', 'applicationName': 'vanne_test', 'deviceProfileId': '22c1629d-28ac-44d4-8f2d-7060525fe3b8', 'deviceProfileName': 'relay', 'deviceName': 'relay', 'devEui': 'ab7554dc00001075', 'deviceClassEnabled': 'CLASS_C', 'tags': {}}, 'devAddr': '00fba9ba', 'adr': True, 'dr': 2, 'fCnt': 10124, 'fPort': 2, 'confirmed': True, 'data': 'AA==', 'object': {}, 'rxInfo': [{'gatewayId': '7276ff000b030bf9', 'uplinkId': 33572, 'gwTime': '2025-06-01T11:52:27.576364+00:00', 'nsTime': '2025-06-01T11:52:27.624836987+00:00', 'rssi': -122, 'snr': -6.0, 'channel': 1, 'location': {'latitude': 34.65105, 'longitude': -1.8973, 'altitude': 618.0}, 'context': 'SqmOxA==', 'crcStatus': 'CRC_OK'}], 'txInfo': {'frequency': 867300000, 'modulation': {'lora': {'bandwidth': 125000, 'spreadingFactor': 10, 'codeRate': 'CR_4_5'}}}, 'regionConfigId': 'eu868'}
+DEV EUI :  ab7554dc00001075
+Dispositif non reconnu, données ignorées.
+Dispositif non reconnu, données ignorées.
+Dispositif non reconnu, données ignorées.
+chirpstack integration error

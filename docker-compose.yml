@@ -15,7 +15,8 @@ services:
       - POSTGRESQL_HOST=postgres
     ports:
       - "8080:8080"
-
+    networks:
+      - chirpstack_network
   chirpstack-gateway-bridge:
     image: chirpstack/chirpstack-gateway-bridge:4
     restart: unless-stopped
@@ -29,7 +30,8 @@ services:
       - INTEGRATION__MQTT__COMMAND_TOPIC_TEMPLATE=eu868/gateway/{{ .GatewayID }}/command/#
     depends_on:
       - mosquitto
-  
+    networks:
+      - chirpstack_network
   chirpstack-gateway-bridge-basicstation:
     image: chirpstack/chirpstack-gateway-bridge:4
     restart: unless-stopped
@@ -40,7 +42,8 @@ services:
       - ./configuration/chirpstack-gateway-bridge:/etc/chirpstack-gateway-bridge
     depends_on:
       - mosquitto
-
+    networks:
+      - chirpstack_network
   chirpstack-rest-api:
     image: chirpstack/chirpstack-rest-api:4
     restart: unless-stopped
@@ -49,6 +52,8 @@ services:
       - "8090:8090"
     depends_on:
       - chirpstack
+    networks:
+      - chirpstack_network
 
   postgres:
     image: postgres:14-alpine
@@ -60,14 +65,16 @@ services:
       - POSTGRES_USER=chirpstack
       - POSTGRES_PASSWORD=chirpstack
       - POSTGRES_DB=chirpstack
-
+    networks:
+      - chirpstack_network  # La même réseau pour faciliter la communication
   redis:
     image: redis:7-alpine
     restart: unless-stopped
     command: redis-server --save 300 1 --save 60 100 --appendonly no
     volumes:
       - redisdata:/data
-
+    networks:
+      - chirpstack_network  # La même réseau pour faciliter la communication
   mosquitto:
     image: eclipse-mosquitto:2
     restart: unless-stopped
@@ -75,7 +82,40 @@ services:
       - "1883:1883"
     volumes: 
       - ./configuration/mosquitto/config/:/mosquitto/config/
-
+    networks:
+      - chirpstack_network  # La même réseau pour faciliter la communication
+  django:
+    container_name: django_app
+    build:
+      context: ./WS_1  # Remplace par le chemin du dossier de ton projet Django
+    volumes:
+      - ./WS_1:/WS_1  # Montre ton projet local dans le container Docker
+      - ./staticfiles:/WS_1/staticfiles
+    ports:
+      - "8000:8000"  # Mappe le port 8000 du container à celui du VPS
+    environment:
+      - DEBUG=True  # (à changer pour False en production)
+    depends_on:
+      - chirpstack  # Attendre que ChirpStack soit lancé
+    networks:
+      - chirpstack_network  # La même réseau pour faciliter la communication
+  nginx:
+    image: nginx:latest
+    ports:
+      - "81:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./WS_1/staticfiles:/staticfiles
+    depends_on:
+      - django
+    networks:
+      - webnet
+      - chirpstack_network  # La même réseau pour faciliter la communication
+networks:
+  chirpstack_network:
+    driver: bridge  # Définit le réseau bridge pour permettre aux services de communiquer
+  webnet:
+    driver: bridge
 volumes:
   postgresqldata:
   redisdata:
